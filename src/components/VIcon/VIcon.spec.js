@@ -25,6 +25,13 @@ test('VIcon.js', ({ mount, compileToFunctions }) => {
     expect(wrapper.element.classList).toContain('icon--disabled')
   })
 
+  it('should not set font size if none provided', () => {
+    const context = functionalContext({}, 'add')
+    const wrapper = mount(VIcon, context)
+
+    expect(wrapper.element.style.fontSize).toBe('')
+  })
+
   it('should render a mapped size', () => {
     const SIZE_MAP = {
       small: '16px',
