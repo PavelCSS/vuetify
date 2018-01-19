@@ -2,7 +2,7 @@
 
 exports[`VTextField.js should calculate element height when using auto-grow prop 1`] = `
 
-<div class="input-group input-group--focused input-group--dirty input-group--text-field input-group--multi-line primary--text">
+<div class="input-group input-group--focused input-group--dirty input-group--text-field input-group--multi-line input-group--no-resize primary--text">
   <div class="input-group__input">
     <textarea tabindex="0"
               rows="5"
@@ -11,7 +11,52 @@ exports[`VTextField.js should calculate element height when using auto-grow prop
     </textarea>
   </div>
   <div class="input-group__details">
-    <!---->
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js should match auto-grow snapshot 1`] = `
+
+<div class="input-group input-group--text-field input-group--no-resize input-group--textarea primary--text">
+  <div class="input-group__input">
+    <textarea tabindex="0"
+              rows="5"
+              style="height: 120px;"
+    >
+    </textarea>
+  </div>
+  <div class="input-group__details">
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js should match multi-line snapshot 1`] = `
+
+<div class="input-group input-group--text-field input-group--multi-line primary--text">
+  <div class="input-group__input">
+    <textarea tabindex="0"
+              rows="5"
+    >
+    </textarea>
+  </div>
+  <div class="input-group__details">
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js should match textarea snapshot 1`] = `
+
+<div class="input-group input-group--text-field input-group--textarea primary--text">
+  <div class="input-group__input">
+    <textarea tabindex="0"
+              rows="5"
+    >
+    </textarea>
+  </div>
+  <div class="input-group__details">
   </div>
 </div>
 
@@ -26,7 +71,6 @@ exports[`VTextField.js should not display counter when set to false 1`] = `
     >
   </div>
   <div class="input-group__details">
-    <!---->
     <div class="input-group__counter">
       0 / 25
     </div>
@@ -44,7 +88,6 @@ exports[`VTextField.js should not display counter when set to false 2`] = `
     >
   </div>
   <div class="input-group__details">
-    <!---->
   </div>
 </div>
 
@@ -59,7 +102,6 @@ exports[`VTextField.js should render component and match snapshot 1`] = `
     >
   </div>
   <div class="input-group__details">
-    <!---->
   </div>
 </div>
 
@@ -88,10 +130,8 @@ exports[`VTextField.js should render component with async loading and custom pro
           <div class="progress-linear__bar__indeterminate short orange">
           </div>
         </div>
-        <!---->
       </div>
     </div>
-    <!---->
   </div>
 </div>
 
@@ -120,10 +160,8 @@ exports[`VTextField.js should render component with async loading and match snap
           <div class="progress-linear__bar__indeterminate short primary">
           </div>
         </div>
-        <!---->
       </div>
     </div>
-    <!---->
   </div>
 </div>
 

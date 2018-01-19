@@ -119,7 +119,7 @@ export default {
       )}px`
     },
     calculatedTop () {
-      if (!this.auto || this.absolute) return this.calcTop()
+      if (!this.auto || this.isAttached) return this.calcTop()
 
       return `${this.calcYOverflow(this.calcTopAuto())}px`
     },
@@ -158,6 +158,9 @@ export default {
       requestAnimationFrame(this.startTransition)
       // Once transitioning, calculate scroll position
       setTimeout(this.calculateScroll, 50)
+    },
+    closeConditional () {
+      return this.isActive && this.closeOnClick
     },
     onResize () {
       if (!this.isActive) return
