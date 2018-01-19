@@ -12,21 +12,21 @@ exports[`VDataTable.vue should match a snapshot - no data 1`] = `
               aria-label="First Column: Sorted ascending. Activate to sort descending."
               aria-sort="ascending"
               tabindex="0"
-              class="column sortable active asc text-xs-right a-string"
+              class="column sortable active asc text-xs-left a-string"
           >
+            First Column
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
                style="font-size: 16px;"
             >
               arrow_upward
             </i>
-            First Column
           </th>
           <th role="columnheader"
               scope="col"
               aria-label="Second Column: Not sorted."
               aria-sort="none"
-              class="column text-xs-right"
+              class="column text-xs-left"
           >
             Second Column
           </th>
@@ -35,15 +35,15 @@ exports[`VDataTable.vue should match a snapshot - no data 1`] = `
               aria-label="Third Column: Not sorted. Activate to sort ascending."
               aria-sort="none"
               tabindex="0"
-              class="column sortable text-xs-right an array"
+              class="column sortable text-xs-left an array"
           >
+            Third Column
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
                style="font-size: 16px;"
             >
               arrow_upward
             </i>
-            Third Column
           </th>
         </tr>
         <tr class="datatable__progress">
@@ -145,7 +145,7 @@ exports[`VDataTable.vue should match a snapshot - no data 1`] = `
               </div>
             </div>
             <i aria-hidden="true"
-               class="material-icons icon input-group__append-icon input-group__icon-cb"
+               class="icon material-icons input-group__append-icon input-group__icon-cb"
             >
               arrow_drop_down
             </i>
@@ -161,12 +161,12 @@ exports[`VDataTable.vue should match a snapshot - no data 1`] = `
         <button disabled="disabled"
                 type="button"
                 class="btn btn--disabled btn--flat btn--icon"
-                data-ripple="true"
+                data-ripple="false"
                 aria-label="Previous page"
         >
           <div class="btn__content">
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
             >
               chevron_left
             </i>
@@ -175,12 +175,12 @@ exports[`VDataTable.vue should match a snapshot - no data 1`] = `
         <button disabled="disabled"
                 type="button"
                 class="btn btn--disabled btn--flat btn--icon"
-                data-ripple="true"
+                data-ripple="false"
                 aria-label="Next page"
         >
           <div class="btn__content">
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
             >
               chevron_right
             </i>
@@ -205,21 +205,21 @@ exports[`VDataTable.vue should match a snapshot - no matching results 1`] = `
               aria-label="First Column: Sorted ascending. Activate to sort descending."
               aria-sort="ascending"
               tabindex="0"
-              class="column sortable active asc text-xs-right a-string"
+              class="column sortable active asc text-xs-left a-string"
           >
+            First Column
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
                style="font-size: 16px;"
             >
               arrow_upward
             </i>
-            First Column
           </th>
           <th role="columnheader"
               scope="col"
               aria-label="Second Column: Not sorted."
               aria-sort="none"
-              class="column text-xs-right"
+              class="column text-xs-left"
           >
             Second Column
           </th>
@@ -228,15 +228,15 @@ exports[`VDataTable.vue should match a snapshot - no matching results 1`] = `
               aria-label="Third Column: Not sorted. Activate to sort ascending."
               aria-sort="none"
               tabindex="0"
-              class="column sortable text-xs-right an array"
+              class="column sortable text-xs-left an array"
           >
+            Third Column
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
                style="font-size: 16px;"
             >
               arrow_upward
             </i>
-            Third Column
           </th>
         </tr>
         <tr class="datatable__progress">
@@ -338,7 +338,7 @@ exports[`VDataTable.vue should match a snapshot - no matching results 1`] = `
               </div>
             </div>
             <i aria-hidden="true"
-               class="material-icons icon input-group__append-icon input-group__icon-cb"
+               class="icon material-icons input-group__append-icon input-group__icon-cb"
             >
               arrow_drop_down
             </i>
@@ -354,12 +354,12 @@ exports[`VDataTable.vue should match a snapshot - no matching results 1`] = `
         <button disabled="disabled"
                 type="button"
                 class="btn btn--disabled btn--flat btn--icon"
-                data-ripple="true"
+                data-ripple="false"
                 aria-label="Previous page"
         >
           <div class="btn__content">
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
             >
               chevron_left
             </i>
@@ -368,12 +368,12 @@ exports[`VDataTable.vue should match a snapshot - no matching results 1`] = `
         <button disabled="disabled"
                 type="button"
                 class="btn btn--disabled btn--flat btn--icon"
-                data-ripple="true"
+                data-ripple="false"
                 aria-label="Next page"
         >
           <div class="btn__content">
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
             >
               chevron_right
             </i>
@@ -398,21 +398,21 @@ exports[`VDataTable.vue should match a snapshot - with data 1`] = `
               aria-label="First Column: Sorted ascending. Activate to sort descending."
               aria-sort="ascending"
               tabindex="0"
-              class="column sortable active asc text-xs-right a-string"
+              class="column sortable active asc text-xs-left a-string"
           >
+            First Column
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
                style="font-size: 16px;"
             >
               arrow_upward
             </i>
-            First Column
           </th>
           <th role="columnheader"
               scope="col"
               aria-label="Second Column: Not sorted."
               aria-sort="none"
-              class="column text-xs-right"
+              class="column text-xs-left"
           >
             Second Column
           </th>
@@ -421,15 +421,15 @@ exports[`VDataTable.vue should match a snapshot - with data 1`] = `
               aria-label="Third Column: Not sorted. Activate to sort ascending."
               aria-sort="none"
               tabindex="0"
-              class="column sortable text-xs-right an array"
+              class="column sortable text-xs-left an array"
           >
+            Third Column
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
                style="font-size: 16px;"
             >
               arrow_upward
             </i>
-            Third Column
           </th>
         </tr>
         <tr class="datatable__progress">
@@ -533,7 +533,7 @@ exports[`VDataTable.vue should match a snapshot - with data 1`] = `
               </div>
             </div>
             <i aria-hidden="true"
-               class="material-icons icon input-group__append-icon input-group__icon-cb"
+               class="icon material-icons input-group__append-icon input-group__icon-cb"
             >
               arrow_drop_down
             </i>
@@ -549,12 +549,12 @@ exports[`VDataTable.vue should match a snapshot - with data 1`] = `
         <button disabled="disabled"
                 type="button"
                 class="btn btn--disabled btn--flat btn--icon"
-                data-ripple="true"
+                data-ripple="false"
                 aria-label="Previous page"
         >
           <div class="btn__content">
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
             >
               chevron_left
             </i>
@@ -563,12 +563,12 @@ exports[`VDataTable.vue should match a snapshot - with data 1`] = `
         <button disabled="disabled"
                 type="button"
                 class="btn btn--disabled btn--flat btn--icon"
-                data-ripple="true"
+                data-ripple="false"
                 aria-label="Next page"
         >
           <div class="btn__content">
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
             >
               chevron_right
             </i>
@@ -593,21 +593,21 @@ exports[`VDataTable.vue should match a snapshot with single rows-per-page-items 
               aria-label="First Column: Sorted ascending. Activate to sort descending."
               aria-sort="ascending"
               tabindex="0"
-              class="column sortable active asc text-xs-right a-string"
+              class="column sortable active asc text-xs-left a-string"
           >
+            First Column
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
                style="font-size: 16px;"
             >
               arrow_upward
             </i>
-            First Column
           </th>
           <th role="columnheader"
               scope="col"
               aria-label="Second Column: Not sorted."
               aria-sort="none"
-              class="column text-xs-right"
+              class="column text-xs-left"
           >
             Second Column
           </th>
@@ -616,15 +616,15 @@ exports[`VDataTable.vue should match a snapshot with single rows-per-page-items 
               aria-label="Third Column: Not sorted. Activate to sort ascending."
               aria-sort="none"
               tabindex="0"
-              class="column sortable text-xs-right an array"
+              class="column sortable text-xs-left an array"
           >
+            Third Column
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
                style="font-size: 16px;"
             >
               arrow_upward
             </i>
-            Third Column
           </th>
         </tr>
         <tr class="datatable__progress">
@@ -647,12 +647,12 @@ exports[`VDataTable.vue should match a snapshot with single rows-per-page-items 
         <button disabled="disabled"
                 type="button"
                 class="btn btn--disabled btn--flat btn--icon"
-                data-ripple="true"
+                data-ripple="false"
                 aria-label="Previous page"
         >
           <div class="btn__content">
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
             >
               chevron_left
             </i>
@@ -665,7 +665,7 @@ exports[`VDataTable.vue should match a snapshot with single rows-per-page-items 
         >
           <div class="btn__content">
             <i aria-hidden="true"
-               class="material-icons icon"
+               class="icon material-icons"
             >
               chevron_right
             </i>

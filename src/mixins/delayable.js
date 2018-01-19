@@ -7,6 +7,8 @@
  * delay time for elements
  */
 export default {
+  name: 'delayable',
+
   data: () => ({
     openTimeout: null,
     closeTimeout: null
