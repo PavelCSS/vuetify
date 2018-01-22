@@ -1,9 +1,10 @@
-require('../../stylus/components/_dialogs.styl')
+import '../../stylus/components/_dialogs.styl'
 
 // Mixins
 import Dependent from '../../mixins/dependent'
 import Detachable from '../../mixins/detachable'
 import Overlayable from '../../mixins/overlayable'
+import Returnable from '../../mixins/returnable'
 import Stackable from '../../mixins/stackable'
 import Toggleable from '../../mixins/toggleable'
 
@@ -16,7 +17,14 @@ import { getZIndex } from '../../util/helpers'
 export default {
   name: 'v-dialog',
 
-  mixins: [Dependent, Detachable, Overlayable, Stackable, Toggleable],
+  mixins: [
+    Dependent,
+    Detachable,
+    Overlayable,
+    Returnable,
+    Stackable,
+    Toggleable
+  ],
 
   directives: {
     ClickOutside
@@ -171,9 +179,9 @@ export default {
     }, [dialog]))
 
     return h('div', {
-      'class': 'dialog__container',
+      staticClass: 'dialog__container',
       style: {
-        display: !this.$slots.activator && 'none' || this.fullWidth ? 'block' : 'inline-block'
+        display: (!this.$slots.activator || this.fullWidth) ? 'block' : 'inline-block'
       }
     }, children)
   }
